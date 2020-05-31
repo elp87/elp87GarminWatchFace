@@ -40,6 +40,10 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);*/
         var clockTime = System.getClockTime();
+        var hour = clockTime.hour;
+        var min = clockTime.min;
+        var sec = clockTime.sec;
+        
     	var width;
     	var height;    	
     	
@@ -62,8 +66,16 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         	drawAngleLine(dc, angle, r1, r2, Graphics.COLOR_LT_GRAY);
         }
         
+        // Рисуем часовую стрелку
+        var hour12 = hour % 12 + (min / 60.0);
+        var hourAngle = (Math.PI / 6) * hour12;
+        drawAngleLine(dc, hourAngle, 0, (width / 2) * 0.5, Graphics.COLOR_WHITE);
+        
+        // Рисуем минутную стрелку
+        var minAngle = (Math.PI / 30) * min;
+        drawAngleLine(dc, minAngle, 0, (width / 2) * 0.9, Graphics.COLOR_WHITE);
+        
         // Рисуем секундную стрелку
-        var sec = clockTime.sec;
         var secAngle = (Math.PI / 30) * sec;
         drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); 
 
