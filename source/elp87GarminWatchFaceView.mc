@@ -20,6 +20,43 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         dc.setColor(color, Graphics.COLOR_BLACK);
         dc.drawLine(x1, y1, x2, y2);
 	}
+	
+	function drawClockHand(dc, angle, r, handWidth, color)
+	{
+		var semiHandWidth = (handWidth - (handWidth % 2)) / 2;
+		var xCenter = dc.getWidth() / 2;
+		var yCenter = dc.getHeight() / 2;
+		
+		var coords = new [5];
+		
+		// Координаты 1-й точки у гвоздика [0]
+		var x0 = xCenter + (Math.cos(angle) * semiHandWidth);
+		var y0 = yCenter + (Math.sin(angle) * semiHandWidth);
+		coords[0] = [x0, y0];
+		
+		// Координаты 2-й точки у гвоздика [1]
+		var x1 = xCenter - (Math.cos(angle) * semiHandWidth);
+		var y1 = yCenter - (Math.sin(angle) * semiHandWidth);
+		coords[1] = [x1, y1];
+		
+		// Координаты 1-й точки у кромки [2]
+		var x2 = xCenter + (Math.sin(angle) * r * 0.9) - (Math.cos(angle) * semiHandWidth);
+		var y2 = yCenter - (Math.cos(angle) * r * 0.9) - (Math.sin(angle) * semiHandWidth);
+		coords[2] = [x2, y2];
+		
+		// Координаты вершины [3]
+		var x3 = xCenter + (Math.sin(angle) * r);
+		var y3 = yCenter - (Math.cos(angle) * r);
+		coords[3] = [x3, y3];
+		
+		// Координаты 2-й точки у кромки [4]
+		var x4 = xCenter + (Math.sin(angle) * r * 0.9) + (Math.cos(angle) * semiHandWidth);
+		var y4 = yCenter - (Math.cos(angle) * r * 0.9) + (Math.sin(angle) * semiHandWidth);
+		coords[4] = [x4, y4];
+		
+		dc.setColor(color, Graphics.COLOR_BLACK);
+		dc.fillPolygon(coords);
+	}
 
     // Load your resources here
     function onLayout(dc) {
@@ -33,12 +70,7 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
     }
 
     // Update the view
-    function onUpdate(dc) {
-        // Get and show the current time
-        /*var clockTime = System.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
-        var view = View.findDrawableById("TimeLabel");
-        view.setText(timeString);*/
+    function onUpdate(dc) {        
         var clockTime = System.getClockTime();
         var hour = clockTime.hour;
         var min = clockTime.min;
@@ -69,11 +101,14 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         // Рисуем часовую стрелку
         var hour12 = hour % 12 + (min / 60.0);
         var hourAngle = (Math.PI / 6) * hour12;
-        drawAngleLine(dc, hourAngle, 0, (width / 2) * 0.5, Graphics.COLOR_WHITE);
+        drawClockHand(dc, hourAngle, (width / 2) * 0.6, 5, Graphics.COLOR_WHITE);
+        //drawAngleLine(dc, hourAngle, 0, (width / 2) * 0.5, Graphics.COLOR_WHITE);
+        
         
         // Рисуем минутную стрелку
         var minAngle = (Math.PI / 30) * min;
-        drawAngleLine(dc, minAngle, 0, (width / 2) * 0.9, Graphics.COLOR_WHITE);
+        drawClockHand(dc, minAngle, (width / 2) * 0.9, 3, Graphics.COLOR_LT_GRAY);
+        //drawAngleLine(dc, minAngle, 0, (width / 2) * 0.9, Graphics.COLOR_WHITE);
         
         // Рисуем секундную стрелку
         var secAngle = (Math.PI / 30) * sec;
