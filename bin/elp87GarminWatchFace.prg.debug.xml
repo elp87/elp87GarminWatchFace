@@ -7,51 +7,91 @@
         <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceApp.mc" id="5" lineNum="14" pc="268435484" symbol="onStop"/>
         <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceApp.mc" id="6" lineNum="18" pc="268435489" symbol="getInitialView"/>
         <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceApp.mc" id="6" lineNum="19" pc="268435493" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="8" lineNum="8" pc="268435531" symbol="initialize"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="8" lineNum="9" pc="268435535" symbol="initialize"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="12" pc="268435554" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="14" pc="268435558" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="15" pc="268435571" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="16" pc="268435584" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="17" pc="268435617" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="18" pc="268435650" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="19" pc="268435683" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="20" pc="268435716" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="21" pc="268435742" symbol="drawAngleLine"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="10" lineNum="25" pc="268435763" symbol="onLayout"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="10" lineNum="26" pc="268435767" symbol="onLayout"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="32" pc="268435805" symbol="onShow"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="36" pc="268435810" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="42" pc="268435814" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="43" pc="268435831" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="44" pc="268435841" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="45" pc="268435851" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="47" pc="268435861" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="48" pc="268435861" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="50" pc="268435861" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="51" pc="268435874" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="54" pc="268435887" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="55" pc="268435923" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="58" pc="268435949" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="59" pc="268435985" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="62" pc="268436018" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="63" pc="268436036" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="64" pc="268436061" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="65" pc="268436071" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="66" pc="268436081" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="70" pc="268436126" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="71" pc="268436145" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="72" pc="268436170" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="75" pc="268436217" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="76" pc="268436242" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="79" pc="268436289" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="80" pc="268436314" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="89" pc="268436362" symbol="onHide"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="14" lineNum="93" pc="268436367" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="15" lineNum="97" pc="268436372" symbol="onEnterSleep"/>
-        <entry filename="Rez" id="21" lineNum="15" pc="268436377" symbol="WatchFace"/>
-        <entry filename="Rez" id="21" lineNum="17" pc="268436389" symbol="WatchFace"/>
-        <entry filename="Rez" id="21" lineNum="19" pc="268436552" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="8" lineNum="9" pc="268435531" symbol="initialize"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="8" lineNum="10" pc="268435535" symbol="initialize"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="13" pc="268435554" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="15" pc="268435558" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="16" pc="268435571" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="17" pc="268435584" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="18" pc="268435611" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="19" pc="268435638" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="20" pc="268435665" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="21" pc="268435692" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="9" lineNum="22" pc="268435718" symbol="drawNonCenterAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="10" lineNum="25" pc="268435739" symbol="drawAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="10" lineNum="27" pc="268435743" symbol="drawAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="10" lineNum="28" pc="268435756" symbol="drawAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="10" lineNum="29" pc="268435769" symbol="drawAngleLine"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="32" pc="268435808" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="34" pc="268435812" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="35" pc="268435831" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="36" pc="268435850" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="38" pc="268435869" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="41" pc="268435877" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="42" pc="268435904" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="43" pc="268435931" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="46" pc="268435965" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="47" pc="268435992" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="48" pc="268436019" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="51" pc="268436053" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="52" pc="268436080" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="53" pc="268436107" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="56" pc="268436141" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="57" pc="268436174" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="58" pc="268436207" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="60" pc="268436241" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="11" lineNum="61" pc="268436267" symbol="drawClockHand"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="64" pc="268436282" symbol="drawExtraClockFace"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="66" pc="268436286" symbol="drawExtraClockFace"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="12" lineNum="67" pc="268436312" symbol="drawExtraClockFace"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="70" pc="268436331" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="71" pc="268436335" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="72" pc="268436371" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="74" pc="268436408" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="75" pc="268436444" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="77" pc="268436481" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="78" pc="268436529" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="80" pc="268436573" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="13" lineNum="81" pc="268436609" symbol="drawDateBox"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="14" lineNum="85" pc="268436652" symbol="onLayout"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="14" lineNum="86" pc="268436656" symbol="onLayout"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="15" lineNum="92" pc="268436694" symbol="onShow"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="96" pc="268436699" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="97" pc="268436703" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="98" pc="268436720" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="99" pc="268436730" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="100" pc="268436740" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="101" pc="268436750" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="103" pc="268436760" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="104" pc="268436760" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="106" pc="268436760" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="107" pc="268436773" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="110" pc="268436786" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="111" pc="268436822" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="114" pc="268436848" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="115" pc="268436884" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="119" pc="268436941" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="120" pc="268436959" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="121" pc="268436984" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="122" pc="268436994" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="123" pc="268437004" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="127" pc="268437049" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="130" pc="268437099" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="133" pc="268437129" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="134" pc="268437154" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="138" pc="268437211" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="139" pc="268437230" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="140" pc="268437255" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="144" pc="268437302" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="145" pc="268437327" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="149" pc="268437374" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="16" lineNum="150" pc="268437410" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="17" lineNum="159" pc="268437444" symbol="onHide"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="18" lineNum="163" pc="268437449" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\elp87\\Documents\\GitHub\\elp87GarminWatchFace\\source\\elp87GarminWatchFaceView.mc" id="19" lineNum="167" pc="268437454" symbol="onEnterSleep"/>
+        <entry filename="Rez" id="25" lineNum="15" pc="268437459" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="17" pc="268437471" symbol="WatchFace"/>
+        <entry filename="Rez" id="25" lineNum="19" pc="268437634" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388644" module="true" symbol="System"/>
@@ -65,13 +105,15 @@
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="14" method="true" symbol="drawExtraClockFace"/>
         <entry id="9" object="true" symbol="elp87GarminWatchFaceApp"/>
-        <entry id="11" method="true" symbol="drawAngleLine"/>
+        <entry id="12" method="true" symbol="drawAngleLine"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="15" symbol="AppName"/>
+        <entry field="true" id="19" symbol="AppName"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry id="10" object="true" symbol="elp87GarminWatchFaceView"/>
-        <entry field="true" id="14" symbol="LauncherIcon"/>
+        <entry field="true" id="18" symbol="LauncherIcon"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="8389065" symbol="locY"/>
@@ -82,59 +124,99 @@
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="12" module="true" symbol="Layouts"/>
+        <entry id="16" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="15" method="true" symbol="drawDateBox"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="17" module="true" symbol="Menus"/>
+        <entry id="11" method="true" symbol="drawNonCenterAngleLine"/>
+        <entry id="13" method="true" symbol="drawClockHand"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
-        <entry endPc="268435762" name="height" stackId="7" startPc="268435558"/>
-        <entry endPc="268435762" name="x2" stackId="10" startPc="268435558"/>
-        <entry endPc="268435762" name="x1" stackId="8" startPc="268435558"/>
-        <entry endPc="268435762" name="y2" stackId="11" startPc="268435558"/>
-        <entry endPc="268435762" name="y1" stackId="9" startPc="268435558"/>
-        <entry endPc="268435762" name="width" stackId="6" startPc="268435558"/>
-        <entry endPc="268435763" name="r2" stackId="4" startPc="268435554"/>
-        <entry endPc="268435763" name="dc" stackId="1" startPc="268435554"/>
-        <entry endPc="268435763" name="color" stackId="5" startPc="268435554"/>
-        <entry endPc="268435763" name="r1" stackId="3" startPc="268435554"/>
-        <entry endPc="268435763" name="angle" stackId="2" startPc="268435554"/>
-        <entry endPc="268435805" name="dc" stackId="1" startPc="268435763"/>
-        <entry endPc="268436113" name="r2" stackId="11" startPc="268436036"/>
-        <entry endPc="268436113" name="r1" stackId="10" startPc="268436036"/>
-        <entry endPc="268436113" name="angle" stackId="9" startPc="268436036"/>
-        <entry endPc="268436126" name="i" stackId="8" startPc="268436036"/>
-        <entry endPc="268436361" name="width" stackId="6" startPc="268435814"/>
-        <entry endPc="268436361" name="minAngle" stackId="14" startPc="268435814"/>
-        <entry endPc="268436361" name="clockTime" stackId="2" startPc="268435814"/>
-        <entry endPc="268436361" name="hour12" stackId="12" startPc="268435814"/>
-        <entry endPc="268436361" name="hour" stackId="3" startPc="268435814"/>
-        <entry endPc="268436361" name="min" stackId="4" startPc="268435814"/>
-        <entry endPc="268436361" name="sec" stackId="5" startPc="268435814"/>
-        <entry endPc="268436361" name="secAngle" stackId="15" startPc="268435814"/>
-        <entry endPc="268436361" name="hourAngle" stackId="13" startPc="268435814"/>
-        <entry endPc="268436361" name="height" stackId="7" startPc="268435814"/>
-        <entry endPc="268436362" name="dc" stackId="1" startPc="268435810"/>
-        <entry endPc="268436569" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436389"/>
-        <entry endPc="268436570" name="dc" stackId="1" startPc="268436377"/>
+        <entry endPc="268435738" name="height" stackId="9" startPc="268435558"/>
+        <entry endPc="268435738" name="x2" stackId="12" startPc="268435558"/>
+        <entry endPc="268435738" name="x1" stackId="10" startPc="268435558"/>
+        <entry endPc="268435738" name="y2" stackId="13" startPc="268435558"/>
+        <entry endPc="268435738" name="y1" stackId="11" startPc="268435558"/>
+        <entry endPc="268435738" name="width" stackId="8" startPc="268435558"/>
+        <entry endPc="268435739" name="r2" stackId="6" startPc="268435554"/>
+        <entry endPc="268435739" name="dc" stackId="1" startPc="268435554"/>
+        <entry endPc="268435739" name="color" stackId="7" startPc="268435554"/>
+        <entry endPc="268435739" name="r1" stackId="5" startPc="268435554"/>
+        <entry endPc="268435739" name="xCenter" stackId="2" startPc="268435554"/>
+        <entry endPc="268435739" name="angle" stackId="4" startPc="268435554"/>
+        <entry endPc="268435739" name="yCenter" stackId="3" startPc="268435554"/>
+        <entry endPc="268435807" name="height" stackId="7" startPc="268435743"/>
+        <entry endPc="268435807" name="width" stackId="6" startPc="268435743"/>
+        <entry endPc="268435808" name="r2" stackId="4" startPc="268435739"/>
+        <entry endPc="268435808" name="dc" stackId="1" startPc="268435739"/>
+        <entry endPc="268435808" name="color" stackId="5" startPc="268435739"/>
+        <entry endPc="268435808" name="r1" stackId="3" startPc="268435739"/>
+        <entry endPc="268435808" name="angle" stackId="2" startPc="268435739"/>
+        <entry endPc="268436281" name="x3" stackId="16" startPc="268435812"/>
+        <entry endPc="268436281" name="x2" stackId="14" startPc="268435812"/>
+        <entry endPc="268436281" name="x1" stackId="12" startPc="268435812"/>
+        <entry endPc="268436281" name="x0" stackId="10" startPc="268435812"/>
+        <entry endPc="268436281" name="xCenter" stackId="7" startPc="268435812"/>
+        <entry endPc="268436281" name="y3" stackId="17" startPc="268435812"/>
+        <entry endPc="268436281" name="yCenter" stackId="8" startPc="268435812"/>
+        <entry endPc="268436281" name="y2" stackId="15" startPc="268435812"/>
+        <entry endPc="268436281" name="coords" stackId="9" startPc="268435812"/>
+        <entry endPc="268436281" name="y1" stackId="13" startPc="268435812"/>
+        <entry endPc="268436281" name="y0" stackId="11" startPc="268435812"/>
+        <entry endPc="268436281" name="semiHandWidth" stackId="6" startPc="268435812"/>
+        <entry endPc="268436282" name="dc" stackId="1" startPc="268435808"/>
+        <entry endPc="268436282" name="color" stackId="5" startPc="268435808"/>
+        <entry endPc="268436282" name="r" stackId="3" startPc="268435808"/>
+        <entry endPc="268436282" name="handWidth" stackId="4" startPc="268435808"/>
+        <entry endPc="268436282" name="angle" stackId="2" startPc="268435808"/>
+        <entry endPc="268436331" name="x" stackId="2" startPc="268436282"/>
+        <entry endPc="268436331" name="dc" stackId="1" startPc="268436282"/>
+        <entry endPc="268436331" name="color" stackId="5" startPc="268436282"/>
+        <entry endPc="268436331" name="r" stackId="4" startPc="268436282"/>
+        <entry endPc="268436331" name="y" stackId="3" startPc="268436282"/>
+        <entry endPc="268436651" name="dateStr" stackId="5" startPc="268436335"/>
+        <entry endPc="268436651" name="info" stackId="4" startPc="268436335"/>
+        <entry endPc="268436652" name="x" stackId="2" startPc="268436331"/>
+        <entry endPc="268436652" name="dc" stackId="1" startPc="268436331"/>
+        <entry endPc="268436652" name="y" stackId="3" startPc="268436331"/>
+        <entry endPc="268436694" name="dc" stackId="1" startPc="268436652"/>
+        <entry endPc="268437036" name="r2" stackId="12" startPc="268436959"/>
+        <entry endPc="268437036" name="r1" stackId="11" startPc="268436959"/>
+        <entry endPc="268437036" name="angle" stackId="10" startPc="268436959"/>
+        <entry endPc="268437049" name="i" stackId="9" startPc="268436959"/>
+        <entry endPc="268437443" name="width" stackId="7" startPc="268436703"/>
+        <entry endPc="268437443" name="minAngle" stackId="16" startPc="268436703"/>
+        <entry endPc="268437443" name="hour12" stackId="14" startPc="268436703"/>
+        <entry endPc="268437443" name="clockTime" stackId="2" startPc="268436703"/>
+        <entry endPc="268437443" name="hour" stackId="4" startPc="268436703"/>
+        <entry endPc="268437443" name="min" stackId="5" startPc="268436703"/>
+        <entry endPc="268437443" name="sec" stackId="6" startPc="268436703"/>
+        <entry endPc="268437443" name="hourAngle" stackId="15" startPc="268436703"/>
+        <entry endPc="268437443" name="secAngle" stackId="13" startPc="268436703"/>
+        <entry endPc="268437443" name="day" stackId="3" startPc="268436703"/>
+        <entry endPc="268437443" name="height" stackId="8" startPc="268436703"/>
+        <entry endPc="268437444" name="dc" stackId="1" startPc="268436699"/>
+        <entry endPc="268437651" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437471"/>
+        <entry endPc="268437652" name="dc" stackId="1" startPc="268437459"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
         <dataEntry offset="150" parentId="globals" symbolId="elp87GarminWatchFaceView" type="class"/>
-        <dataEntry offset="253" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="332" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="371" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="402" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="433" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="472" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="503" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="542" parentId="globals" symbolId="elp87GarminWatchFaceApp" type="class"/>
+        <dataEntry offset="285" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="364" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="403" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="434" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="465" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="504" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="535" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="574" parentId="globals" symbolId="elp87GarminWatchFaceApp" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="elp87GarminWatchFaceApp">
@@ -154,12 +236,44 @@
         <functionEntry accessMode="public" name="initialize" parent="elp87GarminWatchFaceView">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="drawNonCenterAngleLine" parent="elp87GarminWatchFaceView">
+            <param id="dc"/>
+            <param id="xCenter"/>
+            <param id="yCenter"/>
+            <param id="angle"/>
+            <param id="r1"/>
+            <param id="r2"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="drawAngleLine" parent="elp87GarminWatchFaceView">
             <param id="dc"/>
             <param id="angle"/>
             <param id="r1"/>
             <param id="r2"/>
             <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawClockHand" parent="elp87GarminWatchFaceView">
+            <param id="dc"/>
+            <param id="angle"/>
+            <param id="r"/>
+            <param id="handWidth"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawExtraClockFace" parent="elp87GarminWatchFaceView">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="r"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawDateBox" parent="elp87GarminWatchFaceView">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onLayout" parent="elp87GarminWatchFaceView">
