@@ -3,6 +3,7 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
 using Toybox.Time.Gregorian;
+using Toybox.Activity;
 
 class elp87GarminWatchFaceView extends WatchUi.WatchFace {
 
@@ -80,6 +81,13 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(x, y, Graphics.FONT_XTINY, dateStr, Graphics.TEXT_JUSTIFY_CENTER);
     }
+    
+    function drawHeartRate(dc, x, y) {
+    	var value = Activity.getActivityInfo().currentHeartRate;//Application.getApp().getProperty("ShowHeartRate");
+        if (value != null) {
+        	dc.drawText(x, y, Graphics.FONT_XTINY, value, Graphics.TEXT_JUSTIFY_CENTER);
+        } 
+    }   
 
     // Load your resources here
     function onLayout(dc) {
@@ -133,6 +141,9 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         var secAngle = (Math.PI / 30) * sec;
         drawNonCenterAngleLine(dc, (width * .5), (height * .75), secAngle, 0, (width * .15), Graphics.COLOR_RED);
         //drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); 
+        
+        // Рисуем сердечный пульс
+        drawHeartRate(dc, (width * .25), (height * .35));
 
 		// Рисуем часовую стрелку
         var hour12 = hour % 12 + (min / 60.0);
