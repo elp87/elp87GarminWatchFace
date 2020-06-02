@@ -84,6 +84,12 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
 		dc.setColor(color, Graphics.COLOR_BLACK);
 		dc.fillPolygon(coords);
 	}
+	
+	function drawExtraClockFace (dc, x, y, r, color)
+	{
+		dc.setColor(color, Graphics.COLOR_BLACK);
+        dc.drawCircle(x, y, r);
+	}
 
     // Load your resources here
     function onLayout(dc) {
@@ -137,9 +143,13 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         drawClockHand(dc, minAngle, (width / 2) * 0.9, 5, Graphics.COLOR_LT_GRAY);
         //drawAngleLine(dc, minAngle, 0, (width / 2) * 0.9, Graphics.COLOR_WHITE);
         
+        // Рисуем секундный циферблат
+        drawExtraClockFace(dc, (width * .5), (height * .75), (width * .2), Graphics.COLOR_WHITE);
+        
+        
         // Рисуем секундную стрелку
-        var secAngle = (Math.PI / 30) * sec;
-        drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); 
+        /*var secAngle = (Math.PI / 30) * sec;
+        drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); */
 
         // Call the parent onUpdate function to redraw the layout
         //View.onUpdate(dc);
