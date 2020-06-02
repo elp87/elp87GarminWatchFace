@@ -9,16 +9,29 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         WatchFace.initialize();
     }
     
+    function drawNonCenterAngleLine(dc, xCenter, yCenter, angle, r1, r2, color)
+    {
+    	var width = dc.getWidth();
+    	var height = dc.getHeight();
+		var x1 = xCenter + (Math.sin(angle) * r1);
+        var y1 = yCenter - (Math.cos(angle) * r1);
+        var x2 = xCenter + (Math.sin(angle) * r2);
+        var y2 = yCenter - (Math.cos(angle) * r2);
+        dc.setColor(color, Graphics.COLOR_BLACK);
+        dc.drawLine(x1, y1, x2, y2);
+    }
+    
     function drawAngleLine(dc, angle, r1, r2, color)
 	{
 		var width = dc.getWidth();
     	var height = dc.getHeight();
-		var x1 = (width / 2) + (Math.sin(angle) * r1);
+    	drawNonCenterAngleLine(dc, (width / 2), (height / 2), angle, r1, r2, color);
+		/*var x1 = (width / 2) + (Math.sin(angle) * r1);
         var y1 = (height / 2) - (Math.cos(angle) * r1);
         var x2 = (width / 2) + (Math.sin(angle) * r2);
         var y2 = (height / 2) - (Math.cos(angle) * r2);
         dc.setColor(color, Graphics.COLOR_BLACK);
-        dc.drawLine(x1, y1, x2, y2);
+        dc.drawLine(x1, y1, x2, y2);*/
 	}
 	
 	/*function drawClockHand(dc, angle, r, handWidth, color)
@@ -119,9 +132,7 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, width, height);
     	
-    	// Рисуем гвоздик в центре
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
-        dc.fillCircle(width / 2, height / 2, 3);
+    	
         
         // Рисуем засечки
         for (var i = 0; i < 12; i++) {
@@ -131,26 +142,29 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         	drawAngleLine(dc, angle, r1, r2, Graphics.COLOR_LT_GRAY);
         }
         
-        // Рисуем часовую стрелку
+        // Рисуем секундный циферблат
+        drawExtraClockFace(dc, (width * .5), (height * .75), (width * .15), Graphics.COLOR_DK_GRAY);
+        
+        
+        // Рисуем секундную стрелку
+        var secAngle = (Math.PI / 30) * sec;
+        drawNonCenterAngleLine(dc, (width * .5), (height * .75), secAngle, 0, (width * .15), Graphics.COLOR_RED);
+        //drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); 
+
+		// Рисуем часовую стрелку
         var hour12 = hour % 12 + (min / 60.0);
         var hourAngle = (Math.PI / 6) * hour12;
         drawClockHand(dc, hourAngle, (width / 2) * 0.6, 9, Graphics.COLOR_WHITE);
-        //drawAngleLine(dc, hourAngle, 0, (width / 2) * 0.5, Graphics.COLOR_WHITE);
-        
+        //drawAngleLine(dc, hourAngle, 0, (width / 2) * 0.5, Graphics.COLOR_WHITE);        
         
         // Рисуем минутную стрелку
         var minAngle = (Math.PI / 30) * min;
         drawClockHand(dc, minAngle, (width / 2) * 0.9, 5, Graphics.COLOR_LT_GRAY);
         //drawAngleLine(dc, minAngle, 0, (width / 2) * 0.9, Graphics.COLOR_WHITE);
         
-        // Рисуем секундный циферблат
-        drawExtraClockFace(dc, (width * .5), (height * .75), (width * .2), Graphics.COLOR_WHITE);
-        
-        
-        // Рисуем секундную стрелку
-        /*var secAngle = (Math.PI / 30) * sec;
-        drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); */
-
+        // Рисуем гвоздик в центре
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+        dc.fillCircle(width / 2, height / 2, 3);
         // Call the parent onUpdate function to redraw the layout
         //View.onUpdate(dc);
     }
