@@ -36,6 +36,13 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
 		var xCenter = dc.getWidth() / 2;
 		var yCenter = dc.getHeight() / 2;
 		
+		drawNonCenterClockHand(dc, xCenter, yCenter, angle, r, handWidth, color);
+	}
+	
+	function drawNonCenterClockHand(dc, xCenter, yCenter, angle, r, handWidth, color)
+	{
+		var semiHandWidth = (handWidth - (handWidth % 2)) / 2;		
+		
 		var coords = new [4];
 		
 		// Координаты 1-й точки у гвоздика [0]
@@ -85,8 +92,27 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
     function drawHeartRate(dc, x, y) {
     	var value = Activity.getActivityInfo().currentHeartRate;//Application.getApp().getProperty("ShowHeartRate");
         if (value != null) {
-        	dc.drawText(x, y, Graphics.FONT_XTINY, value, Graphics.TEXT_JUSTIFY_CENTER);
+        	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
+        	dc.drawText(x, y, Graphics.FONT_MEDIUM, value, Graphics.TEXT_JUSTIFY_CENTER);
         } 
+    }
+    
+    function drawBatteryLevel(dc, x, y)
+    {    	
+    	var stats = System.getSystemStats();
+    	var charging = stats.charging;
+    	var batteryLevel = stats.battery;
+        var batteryText = "N/A";
+        if (batteryLevel != null) {
+        	var batteryValue = batteryLevel.toNumber();
+            batteryText = batteryValue + "%";
+            var color = Graphics.COLOR_GREEN;
+            if (batteryValue < 50) { color = Graphics.COLOR_YELLOW; }
+            if (batteryValue < 20) { color = Graphics.COLOR_RED; }
+            if (charging == true) { color = Graphics.COLOR_WHITE; } 
+            dc.setColor(color, Graphics.COLOR_BLACK);
+            dc.drawText(x, y, Graphics.FONT_MEDIUM, batteryText, Graphics.TEXT_JUSTIFY_CENTER);
+        }
     }   
 
     // Load your resources here
@@ -118,9 +144,11 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, width, height);
         
-        // Пишем лого GARMIN
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLACK);
-        dc.drawText((width / 2), (height * 0.1), Graphics.FONT_SMALL, "GARMIN", Graphics.TEXT_JUSTIFY_CENTER);
+        // Пишем 12
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        dc.drawText((width / 2), (height * 0.05), Graphics.FONT_LARGE, "12", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((width * 0.9), (height * 0.42), Graphics.FONT_MEDIUM, "3", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((width * 0.1), (height * 0.42), Graphics.FONT_MEDIUM, "9", Graphics.TEXT_JUSTIFY_CENTER);
     	
         
         // Рисуем засечки
@@ -139,26 +167,31 @@ class elp87GarminWatchFaceView extends WatchUi.WatchFace {
         
         // Рисуем секундную стрелку
         var secAngle = (Math.PI / 30) * sec;
-        drawNonCenterAngleLine(dc, (width * .5), (height * .75), secAngle, 0, (width * .15), Graphics.COLOR_RED);
-        //drawAngleLine(dc, secAngle, 0, (width / 2) * 0.9, Graphics.COLOR_RED); 
+        drawNonCenterClockHand(dc, (width * .5), (height * .75), secAngle, (width * .15), 5, Graphics.COLOR_RED);
         
         // Рисуем сердечный пульс
-        drawHeartRate(dc, (width * .25), (height * .35));
+        drawHeartRate(dc, (width * .25), (height * .25));
+        
+        // Рисуем уровень батареи
+        drawBatteryLevel(dc, (width * .75), (height * .25));
 
 		// Рисуем часовую стрелку
         var hour12 = hour % 12 + (min / 60.0);
         var hourAngle = (Math.PI / 6) * hour12;
-        drawClockHand(dc, hourAngle, (width / 2) * 0.6, 9, Graphics.COLOR_WHITE);
+        drawClockHand(dc, hourAngle, (width / 2) * 0.6, 15, Graphics.COLOR_WHITE);
         //drawAngleLine(dc, hourAngle, 0, (width / 2) * 0.5, Graphics.COLOR_WHITE);        
         
         // Рисуем минутную стрелку
         var minAngle = (Math.PI / 30) * min;
-        drawClockHand(dc, minAngle, (width / 2) * 0.9, 5, Graphics.COLOR_LT_GRAY);
+        drawClockHand(dc, minAngle, (width / 2) * 0.9, 9, Graphics.COLOR_LT_GRAY);
         //drawAngleLine(dc, minAngle, 0, (width / 2) * 0.9, Graphics.COLOR_WHITE);
         
         // Рисуем гвоздик в центре
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
-        dc.fillCircle(width / 2, height / 2, 3);   
+        dc.fillCircle(width / 2, height / 2, 3); 
+        
+        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_BLACK);
+        dc.fillCircle((width * .5), (height * .75), 1);   
         
         
     }
